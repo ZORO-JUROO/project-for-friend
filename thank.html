@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalra's SITE</title>
+    <link rel="icon" type="image/x-icon" href="home/fevicon.png">
+    <style>
+        body {
+        background-image: url("home/backgorund.jpg");
+
+        background-size: cover;
+        position: fixed;
+        bottom: -100%;
+        opacity:0;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: smooth-appear 2s ease  forwards;
+    }
+    @keyframes smooth-appear {
+        to{
+        bottom: 300px;
+        opacity:1;
+        }
+    }
+    .inp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        text-align: center;
+        cursor: pointer;
+        font-size: large;
+        font-family: 'Times New Roman';
+        height: 40px;
+        width: 130px;
+        border-radius: 20px;
+        background-color: azure;
+        color: black;
+    }
+    input:hover{
+        background-color: rgb(228, 234, 234);
+    }
+    #google-photo{
+        height: 30px;
+        width: 30px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <a href="https://workspace.google.com/intl/en_in/"><img src="home/google.png" alt="google-img" id="google-photo" ></a>
+    <img src="day14/png-transparent-thank-you-text-computer-icons-thank-you-tag-text-logo-monochrome.png" alt="">
+   <div class="inp"> <form action="day14.html"><input type="submit" value="&#8592 Prev page" ></form></div>
+
+</body>
+</html>
